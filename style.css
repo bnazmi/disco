@@ -1,0 +1,159 @@
+body {
+    background: url('./background.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.ball {
+    position: absolute;
+    top: -5px;
+    left: 40%;
+    animation: ball 2s ease infinite;
+}
+@keyframes ball {
+    20% {transform: rotateY(10deg);transform:  translateX(20px)}
+    50% {transform: rotateY(-10deg);transform:  translateX(-20px)}
+    90% {transform: rotateY(10deg);transform:  translateX(20px)}
+}
+.ball img {
+    width: 200px;
+}
+.dancer1{
+    position: absolute;
+    top: 140px;
+    animation: dancer1 5s ease-in-out infinite;
+}
+
+@keyframes dancer1 {
+    10% {transform: translateX(-20px)}
+    20% {transform: translateX(-50px)}
+    40% {transform: translateX(-90px)}
+    60% {transform: translateX(-120px)}
+    80% {transform: translateX(-90px)}
+    90% {transform: translateX(-50px)}
+}
+
+.dancer2 {
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    animation: dancer2 5s ease-in-out infinite;
+}
+@keyframes dancer2 {
+    10% {transform: translate(-20px,5px)}
+    20% {transform: translate(-50px,-5px)}
+    30% {transform: translate(-90px,5px)}
+    40% {transform: translate(-120px,-5px)}
+    50% {transform: translate(-90px,5px)}
+    60% {transform: translate(-50px,-5px)}
+    70% {transform: translate(-20px,5px)}
+    90% {transform: translate(-10px,-5px)}
+    90% {transform: translate(0px,0px)}
+
+
+}
+.dancer3 {
+    position: absolute;
+    top: 140px;
+    left: 300px; 
+    animation: dancer3 5s ease-in-out infinite;
+}
+
+@keyframes dancer3 {
+    10% {transform: translateX(20px)}
+    20% {transform: translateX(-10px)}
+    40% {transform: translateX(-30px)}
+    60% {transform: translateX(-50px)}
+    80% {transform: translateX(-30px)}
+    90% {transform: translateX(-10px)}
+}
+
+.dancer4 {
+    position: absolute;
+    bottom: 10px;
+    left: 500px; 
+}
+
+
+
+.dancer4 img {
+    height: 70vh;
+    animation: dancer4 3s ease-in infinite; 
+}
+
+@keyframes dancer4 {
+    20%{transform: translateY(10px)}
+    20% {transform: scale(1.1,1.1)}
+    30%{transform: translateY(20px)}
+    30% {transform: scale(1.2,1.2)}
+    40%{transform: translateY(30px)}
+    40% {transform: scale(1.3,1.3)}
+    70% {transform: translateY(-20px)}
+    70% {transform: scale(1.2,1.2)}
+    80% {transform: translateY(-30px)}
+    80% {transform: scale(1.1,1.1)}
+    90% {transform: translateY(-50px)}
+    90% {transform: scale(1.1,1.1)}
+}
+
+.dancer5 {
+    position: absolute;
+    bottom: 140px;
+    left: 400px; 
+    animation: dancer5 5s ease infinite;
+}
+
+@keyframes dancer5{
+    10%{transform: translatex(-30px)}
+    20%{transform: translatex(-60px)}
+    30%{transform: translatex(-90px)}
+    40%{transform: translatex(-120px)}
+    50%{transform: translatex(-150px)}
+    60%{transform: translatex(-150px)}
+    60%{transform: translateY(10px)}
+    60% {transform: scale(1.1,1.1)}
+    70%{transform: translateY(20px)}
+    70%{transform: translatex(-150px)}
+    70% {transform: scale(1.2,1.2)}
+    80%{transform: translatex(-150px)}
+    80%{transform: translateY(30px)}
+    80% {transform: scale(1.3,1.3)}
+    90%{transform: translatex(-150px)}
+    90%{transform: translateY(10px)}
+    90% {transform: scale(1.1,1.1)}
+
+}
+
+.dancer6 {
+    position: absolute;
+    bottom: -40px;
+    right: 10px; 
+    animation: dancer6 2s ease infinite;
+}
+
+@keyframes dancer6 {
+    20% {transform:translate(10px,20px) }
+    20% {transform: scale(1.2,1.2)}
+    40% {transform:translate(-10px,-40px)}
+    40% {transform: scale(1,1)}
+    60% {transform:translate(10px,30px)}
+    60% {transform: scale(1.2,1.2)}
+    90% {transform:translate(-10px,-50px)}
+    90% {transform: scale(1.1,1.1)}
+}
+.dancer7 {
+    position: absolute;
+    bottom: -70px;
+    left: 200px; 
+    animation: dancer7 2s ease infinite;
+}
+
+@keyframes dancer7 {
+    20% {transform:translateX(20px) }
+    40% {transform:translateX(-40px)}
+    60% {transform:translateX(30px)}
+    90% {transform:translateX(-50px)}
+}
+
+iframe {
+    display: none;
+}
